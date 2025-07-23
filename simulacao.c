@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 // --- Constantes da Simulação ---
-// O uso de #define permite fácil ajuste dos parâmetros da simulação.[2]
+// O uso de #define permite fácil ajuste dos parâmetros da simulação.
 #define NUMERO_TOTAL_DE_VOLTAS 100
 #define SUSPENSAO_INICIAL 100.0f
 #define COMBUSTIVEL_INICIAL 100.0f
@@ -40,7 +40,7 @@ void checkSystemAlerts(BajaVehicle *carro);
 void printStatusReport(const BajaVehicle *carro, int volta);
 void printFinalReport(const BajaVehicle *carro, int volta_final, int corrida_concluida);
 
-// --- Função Principal (Ponto de Entrada) ---
+// --- Função Principal ---
 int main() {
     BajaVehicle carro_imperador;
     int corrida_concluida = 1; // Flag para indicar se a corrida terminou normalmente.
